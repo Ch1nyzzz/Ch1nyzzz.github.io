@@ -1,0 +1,15 @@
+# Jekyll 配置文件
+title: Ch1nyzzz's Blog
+description: 思考 · 分享 · 成长
+author: Ch1nyzzz
+email: contact@ch1nyzzz.com
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
